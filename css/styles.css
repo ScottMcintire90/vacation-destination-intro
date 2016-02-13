@@ -1,0 +1,19 @@
+.columns {
+  float: left;
+  width: 300px;
+}
+label {
+  display: block;
+}
+select {
+  display: block;
+}
+.btn {
+  display: block;
+}
+#answer {
+  display: none;
+}
+.green-background {
+  background-color: green;
+}
