@@ -13,7 +13,8 @@ select {
 }
 #answer {
   display: none;
+  font-size: 30px;
 }
-.green-background {
-  background-color: green;
+body {
+  font-family: comic;
 }
