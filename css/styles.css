@@ -4,6 +4,26 @@ label {
 select {
   display: block;
 }
+
+#answer {
+  display: none;
+  font-size: 30px;
+}
+body {
+  font-family: comic;
+  background-color: #cce6ff;
+}
+.columns {
+  border: 2px solid #004080;
+  padding: 10px;
+  margin: 2px;
+  float: left;
+  width: 174px;
+}
+.button {
+  padding-left: 500px;
+  padding-top: 100px;
+}
 .btn {
 	-moz-box-shadow:inset 0px 0px 15px 3px #23395e;
 	-webkit-box-shadow:inset 0px 0px 15px 3px #23395e;
@@ -23,7 +43,7 @@ select {
 	display:inline-block;
 	cursor:pointer;
 	color:#ffffff;
-	font-family:Arial;
+	font-family:comic;
 	font-size:25px;
 	padding:32px 76px;
 	text-decoration:none;
@@ -42,22 +62,4 @@ select {
 .btn:active {
 	position:relative;
 	top:1px;
-}
-
-#answer {
-  display: none;
-  font-size: 30px;
-}
-body {
-  font-family: comic;
-  background-color: #cce6ff;
-}
-.columns {
-  float: left;
-  width: 300px;
-}
-.button {
-  padding-left: 500px;
-  padding-top: 100px;
-
 }
