@@ -10,25 +10,25 @@ $(document).ready(function() {
       $("#vacationDestination").empty().append('go swimming in Hawaii');
 
   } else if (age >=40 && climate === 'cold') {
-      $("#vacationDestination").empty().append('Iceland');
+      $("#vacationDestination").empty().append('flew over the arctic to Iceland');
 
   } else if (age <= 10) {
-      $("#vacationDestination").empty().append('Chuck E Cheese');
+      $("#vacationDestination").empty().append('played some video games at Chuck E Cheese');
 
   } else if (age >10 && age < 20 && distance === 'closeBy') {
-      $("#vacationDestination").empty().append('Palm Springs');
+      $("#vacationDestination").empty().append('soaked up some sun in Palm Springs');
 
   } else if (age < 40 && budget === 'expensive') {
-      $("#vacationDestination").empty().append('New York City');
+      $("#vacationDestination").empty().append('saw a broadway play in New York City');
 
   } else if (age < 40 && distance === 'farAway') {
-      $("#vacationDestination").empty().append('Thailand');
+      $("#vacationDestination").empty().append('relaxed on a beach in Thailand');
 
   } else if (age < 40) {
-      $("#vacationDestination").empty().append('Las Vegas');
+      $("#vacationDestination").empty().append('gambled away your life savings in Las Vegas');
 
   } else {
-      $("#vacationDestination").empty().append('Portland');
+      $("#vacationDestination").empty().append('got a Voodoo donut in Portland');
     }
 
     $("#userName").empty().append(name);
