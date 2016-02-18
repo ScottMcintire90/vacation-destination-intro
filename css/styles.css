@@ -6,6 +6,7 @@ select {
 }
 #destination {
   font-size: 22px;
+
 }
 #answer {
   display: none;
@@ -22,6 +23,7 @@ body {
   margin: 2px;
   float: left;
   width: 262px;
+  background-color: #66b5ff;
 }
 .button {
   padding-left: 300px;
@@ -47,8 +49,8 @@ body {
 	cursor:pointer;
 	color:#ffffff;
 	font-family:comic;
-	font-size:25px;
-	padding:163px 310px;
+	font-size:60px;
+	padding:140px 172px;
 	text-decoration:none;
 	text-shadow:0px 0px 0px #263666;
 }
