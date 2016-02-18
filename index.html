@@ -10,9 +10,9 @@
   </head>
   <body>
     <div class="container">
-      <h1 class="jumbotron">Vacation Suggester</h1>
+      <h1 class="jumbotron">Where do you want to go?</h1>
 
-      <h3 align="center">To give you a vacation destination, we need to know a little about you:</h3>
+      <h3 align="center">Answer the questions below to find out where you should go</h3>
       <div class="columns">
       <form id="destination">
         <label for="name">Name</label>
@@ -34,9 +34,11 @@
           <option value="farAway">Far Away</option>
           <option value="closeBy">Close By</option>
         </select><br>
+        </div>
+        <div class="button">
         <button type="submit" class="btn">Tell me where to go</button>
+        </div>
       </form>
-      </div>
       <div id="answer">
         <p><span id="userName"></span>, it's time you <span id="vacationDestination"></span>.</p>
       </div>
